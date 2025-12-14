@@ -1,0 +1,71 @@
+div {
+    text-align: center;
+    font-size: xx-large;
+}
+
+
+body {
+    background-color: black;
+    color: aliceblue;
+}
+
+
+#insta {
+    padding-left: 1700px;
+}
+
+.name {
+    padding-right: 1500px;
+    width: 500px;
+    margin-left: 50px;
+}
+
+.subheading {
+    margin-top: 50px;
+    width: 500px;
+    font-size: medium;
+    text-align: center;
+}
+
+button {
+    color:blueviolet;
+    border-radius: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 30px;
+    margin-left: 80px;
+    background-color: transparent;
+    border-color: blueviolet;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+h2 {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.robot {
+    top: 0%;
+    position: absolute;
+    right: -30%;
+}
+
+.learning_icons {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    animation: slide 2s infinite alternate ease-in-out;
+    gap: 175px;
+}
+
+
+@keyframes slide{
+  from{
+    transform: translateX(0px);
+  }
+  to{
+    transform: translateY(30px);
+  }
+}
