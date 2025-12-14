@@ -57,7 +57,7 @@ h2 {
     flex-direction: row;
     height: 50px;
     animation: slide 2s infinite alternate ease-in-out;
-    gap: 175px;
+    gap: 150px;
 }
 
 
